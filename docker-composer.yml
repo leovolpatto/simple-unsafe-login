@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.6
+    container_name: "simple-login-mysql-container"
+    environment:
+      - "MYSQL_ROOT_PASSWORD=123"
+      - "MYSQL_USER=login_user"
+      - "MYSQL_PASSWORD=123"
+      - "MYSQL_DATABASE=login"
+    ports:
+      - 33061:3306

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "Run Script: debug",
+            "request": "launch",
+            "command": "yarn run debug",
+            "cwd": "${workspaceFolder}",        
+        }
+    ]
+}
